@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>O Enigma do Farol Esquecido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="Desenho de um farol antigo">
+            <p>Você herda um antigo medalhão de família com uma inscrição: "Procure a luz onde o tempo parou, no Farol Esquecido." Para começar, você deve escolher onde buscar a primeira pista sobre sua localização.</p>
+            <button class="btn-proximo" data-proximo="1">Investigar nos arquivos marítimos de Portugal</button>
+            <button class="btn-proximo" data-proximo="2">Procurar em lendas de piratas no Caribe</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Nos arquivos de Lisboa, você encontra um diário de bordo. A pista é sobre "a cidade afundada" que guarda o caminho para o Farol. Você decide se foca em encontrar o mapa ou em saber a lenda local.</p>
+            <button class="btn-proximo" data-proximo="3">Buscar um mapa submerso</button>
+            <button class="btn-proximo" data-proximo="4">Desistir, os arquivos são muito complexos</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em Tortuga, no Caribe, as lendas falam de um tesouro deixado por um capitão. A pista diz: "O Farol repousa na Ilha do Silêncio". Você decide por qual via tentar chegar a essa ilha.</p>
+            <button class="btn-proximo" data-proximo="5">Fretar um barco rápido e seguir a bússola</button>
+            <button class="btn-proximo" data-proximo="6">Buscar informações com os pescadores locais</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Após uma busca exaustiva, você encontra um mapa submerso que indica o Farol Esquecido em uma ilha isolada no Atlântico Norte: a **Ilha do Silêncio**.</p>
+            <button class="btn-proximo" data-proximo="7">Navegar para a Ilha do Silêncio</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Os arquivos são demais para você. Você desiste da busca e o mistério do Farol Esquecido permanece intacto.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Com seu barco rápido, você chega à Ilha do Silêncio! No convés, você encontra um pergaminho que indica o próximo desafio: escalar o penhasco até o topo do Farol.</p>
+            <button class="btn-proximo" data-proximo="7">Começar a escalada</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Os pescadores locais, desconfiados, lhe dão informações falsas. Você perde tempo explorando ilhas vazias.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e fretar o barco rápido</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você chega à base da **Ilha do Silêncio**, o Farol Esquecido se ergue no topo de um penhasco traiçoeiro. Há duas rotas para a cúpula.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir a antiga escadaria em ruínas</button>
+            <button class="btn-proximo" data-proximo="10">Escalar pela face rochosa</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você fretou o barco a tempo. Agora, no convés, você encontra o pergaminho que indica a escalada ao Farol.</p>
+            <button class="btn-proximo" data-proximo="7">Navegar para a Ilha do Silêncio</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>A escadaria desmorona sob seus pés! Você consegue se salvar, mas descobre que a escada está bloqueada. Você precisa tentar a face rochosa.</p>
+            <button class="btn-proximo" data-proximo="12">Voltar e escalar a rocha</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>A escalada é difícil, mas você chega ao topo. Dentro da cúpula do Farol Esquecido, você encontra uma antiga alavanca.</p>
+            <button class="btn-proximo" data-proximo="11">Puxar a alavanca</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="O Farol iluminando a noite e revelando segredos">
+            <p>Ao puxar a alavanca, a luz do Farol se acende pela primeira vez em séculos, revelando um compartimento secreto com o verdadeiro tesouro: a sabedoria da história marítima!</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Você decide escalar a rocha. A escalada é difícil, mas você chega ao topo, encontrando a antiga alavanca na cúpula.</p>
+            <button class="btn-proximo" data-proximo="11">Puxar a alavanca</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>mpartimento secreto com o verdadeiro tesouro: a sabedoria da história marítima!</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Você decide escalar a rocha. A escalada é difícil, mas você chega ao topo, encontrando a antiga alavanca na cúpula.</p>
+            <button class="btn-proximo" data-proximo="11">Puxar a alavanca</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
